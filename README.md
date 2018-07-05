@@ -2,8 +2,6 @@
 
 > Pager component for React
 
-[![NPM](https://img.shields.io/npm/v/react-pager-component.svg)](https://www.npmjs.com/package/react-pager-component) ![Travis](https://api.travis-ci.org/emr/react-pager-component.svg?branch=master) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
 ![screenshot](https://raw.githubusercontent.com/emr/react-pager-component/master/doc/example.png)
 
 ## Install
@@ -58,9 +56,9 @@ class Example extends Component {
 | `firstButtonLabel` | "Go first" button label | `*` |  | First |
 | `showLastButton` | Show "Go last" button | `bool` |  | `true` |
 | `lastButtonLabel` | "Go last" button label | `*` |  | Last |
-| `onChange` | Returns new page number | `function` |  |  |
+| `onChange` | Gives new page number | `function` |  |  |
 
-Also, you can use other html props.
+> Also, you can use other html props.
 
 ## Customization
 
@@ -76,34 +74,30 @@ Also, you can use other html props.
 
   /** styles by intent **/
   &--Prev {
-    /* previous button style */
+    /* previous button styles */
   }
   &--Next {
-    /* next button style */
+    /* next button styles */
   }
   &--Go {
-    /* numeric button style */
+    /* numeric buttons styles */
   }
   &--Rest {
-    /* disabled rest button style */
+    /* disabled rest button styles */
   }
   &--GoFirst {
-    /* go first button style */
+    /* go first button styles */
   }
   &--GoLast {
-    /* go last button style */
+    /* go last button styles */
   }
 
   /** styles by state **/
   &-is-active {
-    /* active button style */
+    /* active button styles */
   }
   &-is-disabled {
-    /* disabled button style */
+    /* disabled button styles */
   }
 }
 ```
-
-## License
-
-MIT © [emr](https://github.com/emr)
