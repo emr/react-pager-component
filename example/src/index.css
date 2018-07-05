@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,900');
+
+body {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 16px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* customization */
+
+.Pager .PagerButton {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #EBF1F5;
+  color: #5C7080;
+}
+.Pager .PagerButton:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.Pager .PagerButton:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.Pager .PagerButton.is-active {
+  z-index: 1;
+  box-shadow: 12px 0px 35px -18px #10161A;
+  text-shadow: 1px 1px 0 #ffffff;
+  font-weight: 900;
+}
+.Pager .PagerButton.is-active ~ .PagerButton {
+  background: #F5F8FA;
+}
+.Pager .PagerButton:not(.is-disabled):hover {
+  text-shadow: 1px 1px 0 #ffffff;
+  color: #10161A;
+}
+.Pager .PagerButton.is-active ~ .PagerButton:not(.is-disabled):hover {
+  background: #EBF1F5;
+}

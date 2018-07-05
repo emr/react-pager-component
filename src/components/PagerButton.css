@@ -1,0 +1,9 @@
+.PagerButton {
+    cursor: pointer;
+    user-select: none;
+}
+.PagerButton.is-active {
+}
+.PagerButton.is-disabled {
+    cursor: not-allowed;
+}
