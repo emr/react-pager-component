@@ -1,9 +1,7 @@
 {
-  "name": "react-basic-pager-example",
-  "homepage": "https://emr.github.io/react-basic-pager",
+  "name": "react-pager-component-example",
   "version": "0.0.0",
   "private": true,
-  "license": "MIT",
   "dependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.2.0",

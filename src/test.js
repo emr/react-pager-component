@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Pager from './';
-import PagerItem from './components/PagerItem';
+import PagerButton from './components/PagerButton';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
@@ -18,7 +18,7 @@ it('renders without crashing', () => {
 it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(
-    <PagerItem
+    <PagerButton
       label={10}
       active={true}
     />,
