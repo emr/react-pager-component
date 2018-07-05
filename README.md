@@ -2,7 +2,7 @@
 
 > Pager component for React
 
-[![NPM](https://img.shields.io/npm/v/react-pager-component.svg)](https://www.npmjs.com/package/react-pager-component) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-pager-component.svg)](https://www.npmjs.com/package/react-pager-component) ![Travis](https://api.travis-ci.org/emr/react-pager-component.svg?branch=master) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ![screenshot](https://raw.githubusercontent.com/emr/react-pager-component/master/doc/example.png)
 
