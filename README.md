@@ -93,10 +93,10 @@ class Example extends Component {
   }
 
   /** styles by state **/
-  &-is-active {
+  &.is-active {
     /* active button styles */
   }
-  &-is-disabled {
+  &.is-disabled {
     /* disabled button styles */
   }
 }
